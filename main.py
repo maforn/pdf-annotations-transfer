@@ -328,9 +328,9 @@ def transfer_annotations(old_pdf_path, new_pdf_path, output_pdf_path, fuzzy_rati
 
 def main():
     if len(sys.argv) < 4 or len(sys.argv) > 6:
-        print("Usage: python transfer_annotations.py <old_pdf> <new_pdf> <output_pdf> [fuzzy_ratio] [base_allowance]")
-        print("Example 1 (Default Fuzzy): python transfer_annotations.py v1.pdf v2.pdf v2_with_annots.pdf")
-        print("Example 2 (Custom Fuzzy): python transfer_annotations.py v1.pdf v2.pdf v2_with_annots.pdf 0.4 5")
+        print("Usage: python main.py <old_pdf> <new_pdf> <output_pdf> [fuzzy_ratio] [base_allowance]")
+        print("Example 1 (Default Fuzzy): python main.py v1.pdf v2.pdf v2_with_annots.pdf")
+        print("Example 2 (Custom Fuzzy): python main.py v1.pdf v2.pdf v2_with_annots.pdf 0.4 5")
         sys.exit(1)
         
     old_pdf_path = sys.argv[1]
